@@ -6,6 +6,8 @@ metadata:
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
+  project: default
+  
   source:
     path: app_kustomize-guestbook
     repoURL: https://github.com/Aleger4/GitOps-workshop.git
